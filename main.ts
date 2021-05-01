@@ -8,22 +8,22 @@ Herzschlag()
 if (input.buttonIsPressed(Button.A)) {
     basic.showNumber(0)
 }
-if (input.pinIsPressed(TouchPin.P0)) {
-    basic.showNumber(0)
+if (input.buttonIsPressed(Button.B)) {
+    basic.showNumber(1)
 } else {
-    basic.showNumber(0)
+    basic.showNumber(2)
 }
 for (let index = 0; index < 4; index++) {
-    basic.showNumber(0)
+    basic.showNumber(3)
 }
 for (let index = 0; index < 5; index++) {
-    basic.showNumber(0)
+    basic.showNumber(4)
 }
 while (input.buttonIsPressed(Button.A)) {
-    basic.showNumber(0)
+    basic.showNumber(5)
 }
 while (input.buttonIsPressed(Button.A)) {
-    basic.showNumber(0)
+    basic.showNumber(6)
     if (input.buttonIsPressed(Button.B)) {
         break;
     }
