@@ -1,4 +1,10 @@
 list2: List[number] = []
+def Herzschlag():
+    basic.show_icon(IconNames.HEART)
+    basic.pause(100)
+    basic.show_icon(IconNames.SMALL_HEART)
+    basic.pause(100)
+Herzschlag()
 if input.button_is_pressed(Button.A):
     basic.show_number(0)
 if input.pin_is_pressed(TouchPin.P0):
